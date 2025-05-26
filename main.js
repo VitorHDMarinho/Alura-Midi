@@ -3,7 +3,7 @@ const listaDeTeclas = document.querySelectorAll('.tecla');
 
 function tocaSom(seletorAudio){
    const elemento =  document.querySelector(seletorAudio);
-   if(elemento && elemento.localName === 'audio'){
+   if(elemento && elemento.localName == 'audio'){
     elemento.play();
    }
    else{
